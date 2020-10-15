@@ -80,7 +80,6 @@ html,body {
     display: none;
     opacity: 0.95;
 }
-
 #Tutorial-Div {
 	width: 325px;
     height: calc(100% - 255px);
@@ -475,15 +474,12 @@ html,body {
     border-radius: 5px;
     background-color: #d8cebc !important;
 }
-
 .esri-Home:hover {
     background-color: #231f20 !important;
 }
-
 .esri-Home:hover .esri-icon-home {
     color: #ffcb40 !important;
 }
-
 .esri-icon-home {
     color: #231f20;
 }*/
@@ -1760,30 +1756,63 @@ li.legend:before {
 }
 
 li.legend:nth-child(1):before {
-  background-color: rgba(224, 203, 61, 0.5);
+  background-color: rgba(255,255,190, 0.5);
   border: 1px solid rgba(0,0,0,0.5);
   margin-right: 3px;    
 }
 
 li.legend:nth-child(2):before {
-  background-color: rgba(61, 118, 224, 0.5);
+  background-color: rgba(255, 255, 0, 0.5);
   border: 1px solid rgba(0,0,0,0.5);
   margin-right: 3px;    
 }
 
 li.legend:nth-child(3):before {
-  background-color: rgba(161,13,219, 0.5);
+  background-color: rgba(229,215,159, 0.5);
   border: 1px solid rgba(0,0,0,0.5);
   margin-right: 3px;    
 }
 
 li.legend:nth-child(4):before {
-  background-color: rgba(255,255,255, 0);
-  border: 1px solid #ff7300;   
-  margin-right: 3px;
-  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjIsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCA4IDgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDggODsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCgkuc3Qwe2ZpbGw6I0ZGRkZGRjt9DQoJLnN0MXtzdHJva2U6I0ZGNzMwMDtzdHJva2Utd2lkdGg6MC41O30NCjwvc3R5bGU+DQo8cmVjdCBjbGFzcz0ic3QwIiB3aWR0aD0iOCIgaGVpZ2h0PSI4Ii8+DQo8cGF0aCBjbGFzcz0ic3QxIiBkPSJNMCwwbDgsOEwwLDB6IE04LDBMMCw4TDgsMHoiLz4NCjwvc3ZnPg0K");
-  background-repeat: repeat;   
-  background-size: 8px;    
+  background-color: rgba(189, 163, 77, 0.5);
+  border: 1px solid rgba(0,0,0,0.5);
+  margin-right: 3px;    
+}
+
+li.legend:nth-child(5):before {
+  background-color: rgba(168, 111, 0, 0.5);
+  border: 1px solid rgba(0,0,0,0.5);
+  margin-right: 3px;    
+}
+
+li.legend:nth-child(6):before {
+  background-color: rgba(255, 190, 190, 0.5);
+  border: 1px solid rgba(0,0,0,0.5);
+  margin-right: 3px;    
+}
+
+li.legend:nth-child(7):before {
+  background-color: rgba(255, 169, 0, 0.5);
+  border: 1px solid rgba(0,0,0,0.5);
+  margin-right: 3px;    
+}
+
+li.legend:nth-child(8):before {
+  background-color: rgba(255, 85, 0, 0.5);
+  border: 1px solid rgba(0,0,0,0.5);
+  margin-right: 3px;    
+}
+
+li.legend:nth-child(9):before {
+  background-color: rgba(168, 0, 0, 0.5);
+  border: 1px solid rgba(0,0,0,0.5);
+  margin-right: 3px;    
+}
+
+li.legend:nth-child(10):before {
+  background-color: rgba(205, 205, 205, 0.5);
+  border: 1px solid rgba(0,0,0,0.5);
+  margin-right: 3px;    
 }
 
 .coll {
@@ -1869,7 +1898,7 @@ li.legend3:nth-child(1):before {
 }
 
 li.legend3:nth-child(2):before {
-  background-color: #B933AD;
+  background-color: #cf0a0a;
   margin-right: 8px;
   margin-top: 3px;    
   width: 40px;
@@ -2834,5 +2863,3 @@ input:checked + .slider:before {
     }
 
 }
-
-
